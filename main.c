@@ -4,16 +4,10 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int x, y, z, m;
-	int a, b, c;
-	x=1;
-	y=3; z=5; //y값 지정 안해도 문제x 
-	a=3;
-	b=4;
-	c=5;
+	int x, y;
 	
-	y=a*x*x+b*x+c;
-	m=(x+y+z)/3;  
-	printf("y=%d, m=%d", y, m);
+	printf("input two integers: ");
+	scanf("%d %d", &x, &y);
+	printf("+ result is %d\n - result id %d\n * result is %d\n / result is %d\n %%result is %d\n", (x+y), (x-y), (x*y), (x/y), (x%y));
 	return 0;
 }
