@@ -5,9 +5,8 @@
 
 int main(int argc, char *argv[]) {
 	int x, y;
-	
-	printf("input two integers: ");
-	scanf("%d %d", &x, &y);
-	printf("+ result is %d\n - result id %d\n * result is %d\n / result is %d\n %%result is %d\n", (x+y), (x-y), (x*y), (x/y), (x%y));
+	printf("input the secound: ");
+	scanf("%d", &x);
+	printf("the time is %d : %d", x/60, x%60);
 	return 0;
 }
